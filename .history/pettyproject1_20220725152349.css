@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+.main{
+    margin: auto;
+    text-align: left;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: ;
+}
+.Nature{
+    background-color: blue;
+    /* width:70px; */
+    font-size: 2rem;
+}
+.photo{
+    font-size: 50px;
+    margin: 5px;
+}
+.arrow{
+    width:20px;
+}
+.more, .arrow {
+    display: inline-block
+}
+.main, .image{
+    /* display:inline-block; */
+}
+.image{
+    /* text-align: right;    */
+    width: 100%;
+    align-self: center;
+}
+.beach{
+    width: 700px;
+    height: 100vh;
+    /* margin-bottom: -500px; */
+}

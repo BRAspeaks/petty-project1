@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+p{
+    color: white;
+}
+.main{
+    text-align: left;
+    width: 350px;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Nature{
+    background-color: blue;
+    width:70px;
+}
+.photo{
+    font-size: 50px;
+    margin: 5px;
+}
+.arrow{
+    width:20px;
+}
+.more, .arrow {
+    display: inline-block
+}
+.main, .image{
+    display:inline-block;
+}
+.image{
+    text-align: right;
+    
+}
+.beach{
+    width: 700px;
+    height: 1000px;
+    margin-bottom: -500px;
+}
